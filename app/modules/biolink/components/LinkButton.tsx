@@ -10,7 +10,19 @@ export default function LinkButton({ label, url }: Props) {
     <Link
       href={url}
       target="_blank"
-      className="block w-full rounded-xl border border-neutral-300 px-4 py-3 text-center font-medium transition hover:bg-neutral-900 hover:text-white"
+      className="
+        block w-full text-center font-medium
+        transition-all duration-200
+        rounded-[var(--btn-radius)]
+        border border-[var(--border)]
+        bg-transparent text-[var(--fg)]
+        px-4 py-3
+        hover:bg-[var(--btn-hover-bg)]
+        hover:text-[var(--btn-hover-fg)]
+        focus:outline-none
+        focus-visible:ring-2
+        focus-visible:ring-[var(--accent)]
+      "
     >
       {label}
     </Link>

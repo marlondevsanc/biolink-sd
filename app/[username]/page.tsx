@@ -11,7 +11,6 @@ interface Props {
 export default async function BioLinkPage({ params }: Props) {
   const { username } = await params;
 
-  console.log("Fetching biolink for username:", username);
   const data = await getBioLink(username);
 
   if (!data) notFound();

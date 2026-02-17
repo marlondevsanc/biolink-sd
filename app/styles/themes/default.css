@@ -1,0 +1,33 @@
+@theme {
+    /* =========================
+     🎨 COLORES – BIOLINK SD
+  ========================== */
+
+    --color-bg: #f4f4f4;
+    --color-surface: #ffc300;
+    --color-primary: #001d3d;
+    --color-text: #f5f5f5;
+    --color-muted: #151515;
+    --color-border: #27272a;
+
+    /* =========================
+     🔤 TIPOGRAFÍA
+  ========================== */
+
+    --font-heading: "Juana", serif;
+    --font-body: "Juana", serif;
+
+    /* =========================
+     📐 ESCALA TIPOGRÁFICA
+  ========================== */
+
+    --text-hero: 4rem;
+    --text-title: 2.5rem;
+    --text-subtitle: 1.5rem;
+
+    /* =========================
+     📏 ESPACIADO BASE
+  ========================== */
+
+    --spacing-section: 6rem;
+}

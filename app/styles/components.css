@@ -1,0 +1,44 @@
+@layer components {
+
+  /* Hero principal */
+  .hero-title {
+    @apply font-heading font-bold sm:text-4xl md:text-8xl italic
+           text-hero
+           leading-tight;
+  }
+
+  .section-title {
+    @apply font-heading font-semibold
+           text-title;
+  }
+
+  .section-subtitle {
+    @apply font-heading font-light italic
+           text-subtitle
+           text-muted;
+  }
+
+  .description {
+    @apply font-body text-muted text-base leading-relaxed;
+  }
+
+  .card {
+    @apply bg-surface border border-border
+           rounded-xl p-6
+           transition-all duration-300;
+  }
+
+  .card:hover {
+    @apply border-primary;
+  }
+
+  .button-primary {
+    @apply bg-primary text-white
+           px-6 py-3 rounded-full
+           transition-all duration-300;
+  }
+
+  .button-primary:hover {
+    opacity: 0.85;
+  }
+}
